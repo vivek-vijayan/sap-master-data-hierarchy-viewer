@@ -1,0 +1,241 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #011834;
+  color: #ffffff;
+  height: 100vh;
+  font-family: "Monda", sans-serif;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 13px;
+  
+}
+
+.oncontent {
+  filter: blur(10px);
+}
+
+.mild-text {
+  color: #adefd1ff;
+}
+
+.dark-text {
+  color: #ffffff;
+}
+
+.form-bpc {
+  background-color: #011633;
+  border: #ffffff solid 1px;
+  color: white;
+}
+
+select option {
+  background-color: #5151510a;
+  color: white;
+  margin: 20px;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+}
+
+.title-text {
+  color: rgb(255, 255, 255);
+  background-image: linear-gradient(
+    to right top,
+    #416cae,
+    #0096d5,
+    #00bcc6,
+    #00da84,
+    #a8eb12
+  );
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+  background: no-repeat 0 100%;
+  border-radius: 20px;
+  /*background-image: linear-gradient(currentColor, currentColor);*/
+  animation: title-animate 10s infinite reverse;
+}
+
+@keyframes title-animate {
+  0% {
+    background-size: 0% 1px;
+    transition: ease-in-out 0.1s;
+  }
+  50% {
+    background-size: 80% 1px;
+    transition: ease-in-out 0.1s;
+  }
+  100% {
+    background-size: 0% 1px;
+    transition: ease-in-out 0.1s;
+  }
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px rgba(128, 128, 128, 0);
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background-image: linear-gradient(
+    to right top,
+    #11d9dc,
+    #00bbf2,
+    #0099ff,
+    #006dff,
+    #121ceb
+  );
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background-image: linear-gradient(
+    to right top,
+    #11d9dc,
+    #00bbf2,
+    #0099ff,
+    #006dff,
+    #121ceb
+  );
+}
+
+.lg {
+  font-size: large;
+}
+
+.header-options {
+  padding: 5px;
+  margin: 5px;
+  color: #ffffff;
+  background-color: #0000001b;
+  border: #0000001b solid 1px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: ease-in-out 0.1s;
+}
+
+.header-options:hover {
+  padding: 5px;
+  text-decoration: none;
+  color: #ffffff;
+  background-image: linear-gradient(
+    to right top,
+    #11d9dc,
+    #00bbf2,
+    #0099ff,
+    #006dff,
+    #121ceb
+  );
+  border: #0000001b solid 1px;
+  margin: 5px;
+  border-radius: 5px;
+  transition: ease-in-out 0.1s;
+}
+
+.bpc-button {
+  padding: 5px;
+  color: #ffffff;
+  background-image: linear-gradient(
+    to right top,
+    #11d9dc,
+    #00bbf2,
+    #0099ff,
+    #006dff,
+    #121ceb
+  );
+  border: #0000001b solid 1px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: ease-in-out 0.1s;
+}
+.bpc-button:hover {
+  padding: 5px;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #ffffff;
+  border: #0000001b solid 1px;
+  border-radius: 5px;
+  transition: ease-in-out 0.1s;
+}
+
+.bpc-success-button {
+  padding: 5px;
+  color: #ffffff;
+  background-image: linear-gradient(
+    to right top,
+    #8441ae,
+    #a13aac,
+    #bc30a6,
+    #d5239d,
+    #eb1291
+  );
+  border: #0000001b solid 1px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: ease-in-out 0.1s;
+}
+.bpc-success-button:hover {
+  padding: 5px;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #ffffff;
+  border: #0000001b solid 1px;
+  border-radius: 5px;
+  transition: ease-in-out 0.1s;
+}
+.search {
+  background-color: #e8ebee;
+  color: #1b242e;
+  padding: 5px;
+  border-radius: 20px;
+  flex: 2;
+}
+
+.spacingg {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.sidebaroptions {
+  background-color: #0000001b;
+}
+
+.line-1 {
+  width: 5em;
+  overflow: hidden;
+}
+
+/* Animation */
+.anim-typewriter {
+  animation: typewriter 1s steps(44) 1s 1 normal both,
+    blinkTextCursor 500ms steps(44) infinite normal;
+}
+@keyframes typewriter {
+  from {
+    width: 0;
+  }
+  to {
+    width: 5em;
+  }
+}
+@keyframes blinkTextCursor {
+  from {
+    border-right-color: rgba(255, 255, 255, 0.75);
+  }
+  to {
+    border-right-color: transparent;
+  }
+}
+
+
+.dark {
+  background-color: #0096d5;
+}
